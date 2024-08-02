@@ -1,115 +1,65 @@
+/* Reset básico */
 * {
     margin: 0;
     padding: 0;
-    font-family: "Open Sans", sans-serif;
+    box-sizing: border-box;
 }
 
-.cabeçalho {
-    background-color: #300301;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 24px 0;
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4;
 }
 
-.cabeçalho-título {
-    color: #C72A2C;
-    font-size: 54px;
-}
-
-.cabeçalho-lista {
-    color: white;
-    font-size: 22px;
-}
-
-.cabeçalho-logotipo {
-    width: 120px;
-}
-
-.cabeçalho-lista-item1 {
-    display: inline-block;
-    margin: 0 16px;
-}
-
-.cabeçalho-lista-item2 {
-    display: inline-block;
-    margin: 0 16px;
-}
-
-.nossa-escola {
-    background-image: linear-gradient(#300301, #960903);
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 24px 0;
-
-}
-
-.nossa-escola-título {
-    font-size: 32px;
-    padding: 24px;
-}
-
-.nossa-escola-texto1 {
-    font-size: 26px;
-    padding: 24px;
-}
-
-.nossa-escola-texto2 {
-    font-size: 26px;
-    padding: 24px;
-}
-
-.nossa-escola-div {
-    width: 40%;
-}
-
-.nossa-escola-imagem {
-    width: 30%;
-}
-
-.equipe {
-    background-color: #cd5f05db;
-    color: white;
-}
-
-.professor{
-    width: 120px;
-}
-
-.ícone {
-    width: 24px;
-}
-
-.equipe-div {
-    text-align: center;
-    padding: 16px 0;
-}
-
-.equipe-título{
+.header {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
     text-align: center;
 }
 
-.equipe-div-todos {
-    display: grid;
-    grid-template-columns: 20% 20% 20% 20% 20%;
+.header h1 {
+    margin-bottom: 0.5rem;
 }
 
-.rodapé{
-    background-color: #300301;
-    color: #960903;
-    font-size: 20px;
-    display: flex;
-    justify-content: space-around;
-    padding: 50px 0;
-    align-items: center;
+.navbar ul {
+    list-style: none;
 }
 
-.rodapé-imagem{
-    width: 70px;
+.navbar ul li {
+    display: inline;
+    margin: 0 10px;
 }
 
-.rodapé-ícone{
-    width: 30px;
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.section {
+    padding: 2rem;
+    margin: 0 auto;
+    max-width: 800px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 1rem;
+}
+
+.section h2 {
+    margin-bottom: 1rem;
+}
+
+.section-img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.footer {
+    text-align: center;
+    padding: 1rem;
+    background: #333;
+    color: #fff;
 }
