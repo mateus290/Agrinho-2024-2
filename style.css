@@ -13,7 +13,7 @@ body {
 
 .header {
     background: #333;
-    color: #fff;
+    color: #d1faba;
     padding: 1rem 0;
     text-align: center;
 }
@@ -32,7 +32,7 @@ body {
 }
 
 .navbar a {
-    color: #fff;
+    color: #9bf186;
     text-decoration: none;
 }
 
