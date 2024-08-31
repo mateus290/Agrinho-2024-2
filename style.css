@@ -95,3 +95,47 @@ body {
 .footer p {
     margin: 0;
 }
+.footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-links {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.footer-links a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+.footer-contact {
+    margin-top: 10px;
+}
+
+.social-icon {
+    margin: 0 5px;
+    text-decoration: none;
+    color: white;
+}
+
+.social-icon:hover {
+    text-decoration: underline;
+}
