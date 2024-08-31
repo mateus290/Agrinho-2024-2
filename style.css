@@ -62,7 +62,7 @@ body {
     max-width: 800px;
     background: #fff; /* Cor de fundo branca para contraste */
     border-radius: 8px; /* Bordas arredondadas */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    box-shadow: 0 0 10px rgba(29, 100, 1, 0.1); /* Sombra suave */
     margin-bottom: 1.5rem;
 }
 
@@ -78,7 +78,7 @@ body {
 
 /* Imagens nas seções */
 .section-img {
-    max-width: 100%;
+    max-width: 80%;
     height: auto;
     display: block;
     margin: 1rem 0;
