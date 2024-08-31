@@ -15,10 +15,13 @@ body {
 
 /* Cabeçalho */
 .header {
+    .logo {
+        width: 100px;
     background: #4CAF50; /* Cor de fundo verde */
     color: #fff;
     padding: 1rem 0;
     text-align: center;
+}
 }
 
 .header h1 {
