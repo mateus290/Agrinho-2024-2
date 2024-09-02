@@ -13,23 +13,14 @@ body {
     background-color: #8ce783;
 }
 
-/* .header {
-    background: linear-gradient(135deg, #4CAF50 0%, #388E3C 100%);
+/* Cabeçalho */
+.header {
+    .logo {
+        width: 100px;
+    background: #4CAF50; /* Cor de fundo verde */
     color: #fff;
-    padding: 1rem;
+    padding: 1rem 0;
     text-align: center;
-    position: relative; /* Adiciona contexto para posicionamento absoluto da imagem */
-}
-
-/* Logo */
-.logo {
-    position: absolute;
-    top: 50%;
-    left: 1rem; /* Distância do canto esquerdo */
-    transform: translateY(-50%); /* Centraliza verticalmente */
-    max-width: 10px; /* Ajusta o tamanho da imagem */
-    border-radius: 15px; /* Arredonda as bordas da imagem */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
 }
 }
 
