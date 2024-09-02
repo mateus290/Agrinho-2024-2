@@ -27,7 +27,7 @@ body {
     top: 50%;
     left: 1rem; /* Distância do canto esquerdo */
     transform: translateY(-50%); /* Centraliza verticalmente */
-    max-width: 100px; /* Ajusta o tamanho da imagem */
+    max-width: 10px; /* Ajusta o tamanho da imagem */
     border-radius: 15px; /* Arredonda as bordas da imagem */
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
 }
