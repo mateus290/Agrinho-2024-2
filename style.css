@@ -84,61 +84,60 @@ body {
     margin: 1rem 0;
 }
 
-/* Rodapé */
-.footer {
-    background: #333; /* Cor de fundo escura */
+/.footer {
+    background: #333;
     color: #fff;
+    padding: 1rem;
     text-align: center;
-    padding: 1rem 0;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
+    border-top: 3px solid #4CAF50;
 }
 
-.footer p {
-    margin: 0;
-}
-.footer {
-    background-color: #333;
-    color: rgb(87, 231, 107);
-    padding: 20px;
-    text-align: center;
+.footer-contact p {
+    margin: 0.5rem 0;
 }
 
-.footer-content {
-    max-width: 1200px;
-    margin: 0 auto;
-}
-
-.footer-links {
-    list-style: none;
-    padding: 0;
-}
-
-.footer-links li {
-    display: inline;
-    margin: 0 10px;
-}
-
-.footer-links a {
-    color: white;
+.footer-contact a {
+    color: #4CAF50;
     text-decoration: none;
+    transition: color 0.3s ease;
 }
 
-.footer-links a:hover {
-    text-decoration: underline;
+.footer-contact a:hover {
+    color: #d0f0c0;
 }
 
-.footer-contact {
-    margin-top: 10px;
+.social-links {
+    margin-top: 1rem;
 }
 
 .social-icon {
-    margin: 0 5px;
-    text-decoration: none;
-    color: white;
+    margin: 0 0.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    display: inline-block;
 }
 
 .social-icon:hover {
-    text-decoration: underline;
+    color: #fff;
+    background-color: #4CAF50;
 }
+
+.social-icon.facebook {
+    background-color: #3b5998;
+}
+
+.social-icon.twitter {
+    background-color: #1DA1F2;
+}
+
+.social-icon.instagram {
+    background-color: #C13584;
+}
+
+/* Adiciona uma pequena margem ao redor das imagens para evitar que elas fiquem muito próximas do texto */
+img {
+    display: block;
+    margin: 1rem auto;
